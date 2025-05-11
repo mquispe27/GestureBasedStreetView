@@ -1,6 +1,6 @@
-## Gesture and Voice Based Street View (ft. GeoGuessr)
+# Gesture and Voice Based Street View (ft. GeoGuessr)
 
-# Guide to Files
+## Guide to Files
 
 api/index.ts -- boilerplate
 client/assets -- boierplate
@@ -24,7 +24,7 @@ vite.config.ts -- boilerplate
 public/favicon.ico -- boilerplate
 
 
-# Instructions to Run
+## Instructions to Run
 
 First, clone this and set your own Google Maps API key in a hidden .env file as API_KEY.
 

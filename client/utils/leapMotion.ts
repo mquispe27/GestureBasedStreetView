@@ -78,7 +78,6 @@ export function setupLeapMotion() {
             const dy = thumbPos[1] - indexPos[1];
             const dz = thumbPos[2] - indexPos[2];
             const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
-            // console.log(distance);
 
             if (distance < 60 && now - lastPanTime > PAN_INTERVAL && now - lastZoomTime > ZOOM_INTERVAL) {
               lastPanTime = now;
@@ -112,7 +111,7 @@ export function setupLeapMotion() {
                 steps = 3;
               }
               console.log("moving forward");
-              console.log(steps);
+              console.log("steps: " + steps);
               void moveStreetViewForward(steps);
             }
           }

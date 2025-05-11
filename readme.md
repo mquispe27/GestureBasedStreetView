@@ -3,24 +3,45 @@
 ## Guide to Files
 
 api/index.ts -- boilerplate
+
 client/assets -- boierplate
+
 client/router/index.ts -- routing boilerplate (just home page and not found)
+
+----
+
 client/utils:
+
 constants.ts -- A few constants for my project, mainly debouncing / cooldown times to not conflate two gestures at once
+
 geoguessrUtils.ts -- contains all functionality for the GeoGuessr game mode.
+
 leapMotion.ts -- handles gesture logic from Leap Motion web socket and passes it to app as commands
+
 StreetViewUtils.ts -- handles panorama changes and all things Street View -- all commands implemented
+
 voiceRecognition.ts -- handles voice commands from Web Speech API and passes it to app as commands
 
+-----
+
 client/views
+
 HomeView.vue -- The home page with initial screen and styles.
+
 leap.d.ts -- A necessary wrapper for TypeScript purposes.
+
 NotFoundView.vue -- Placeholder boilerplate for errors.
 
 client/App.vue -- boilerplate and more styles.
+
 client/main.ts -- boilerplate
+
+------
+
 index.html -- boilerplate
+
 vite.config.ts -- boilerplate
+
 public/favicon.ico -- boilerplate
 
 
